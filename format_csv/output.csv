@@ -1,0 +1,9 @@
+# test
+endebug           = 0 #, , , , , ,,,                            ,,                                   
+,,,,,,,,,,
+,,,,,,,,,
+#reg cfg
+#,min,max, bitwidth, signed, fixed, constraint, snd_description, description, lut_description, rm_var_name
+input_full_range  = 1 #,0,0,1,0,0,,,0:limited range 1:full range,,(DCIParam)stDCIPara.s32InputFRange 
+output_full_range = 1 #,0,0,1,0,0,,,0:limited range 1:full range,,(DCIParam)stDCIPara.s32OutputFRange
+global_diff_en    = 0 #,0,1,1,0,0,,,if欧使用CF和HE的结果        ,,(DCIParam)stDCIPara.s32EnglobIDff  
